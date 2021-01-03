@@ -1,0 +1,75 @@
+.crystalimage {
+  height: 80px;
+  width: 80px;
+}
+
+body {
+  background-image: url("https://lyraina.files.wordpress.com/2015/01/lyraina_viola1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+}
+
+div {
+  background-color: white;
+  margin: 10px;
+  width: 25%;
+  border: solid 2px antiquewhite;
+  padding: 10px;
+}
+h1,
+h3,
+span {
+  font-weight: bold;
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 30px;
+}
+ol {
+  list-style: decimal inside;
+}
+ul {
+  list-style: disc inside;
+  text-indent: 20px;
+}
+
+div.header {
+  background-color: #e0e0eb;
+}
+
+div.header,
+div.instructions {
+  width: 90%;
+}
+
+.numberToMatch,
+.winsAndLosses {
+  float: left;
+  width: 15%;
+}
+.userTotal {
+  width: 15%;
+}
+.crystals {
+  clear: both;
+  text-align: center;
+}
+
+#blue {
+  color: blue;
+}
+#green {
+  color: green;
+}
+#red {
+  color: red;
+}
+#yellow {
+  color: goldenrod;
+}
